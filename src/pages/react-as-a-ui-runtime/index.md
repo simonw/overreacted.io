@@ -353,7 +353,7 @@ No input state is lost now.
 
 ## Lists
 
-Comparing the element type at the same position in the tree is usually enough to decide whether reuse or re-create the corresponding host instance.
+Comparing the element type at the same position in the tree is usually enough to decide whether to reuse or re-create the corresponding host instance.
 
 But this only works well if children positions are static and don’t re-order. In our example above, even though `message` could be a “hole”, we still knew that there the input goes after the message, and there are no other children.
 
